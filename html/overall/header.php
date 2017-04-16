@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <base href="<?php echo APP_URL?>">
     <title><?php echo APP_TITLE ?></title>
     <link rel="stylesheet" href="views/materialize/css/materialize.min.css">
     <script src="views/jquery/jquery-3.2.0.min.js"></script>
     <script src="views/materialize/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="views/app/js/generales.js"></script>
     <style>
         .modal{
             width: 30%;
@@ -70,6 +72,23 @@
 
         .nav-wrapper .material-icons{
             color: white;
+        }
+
+        .bttIniciar{
+            margin-top: 20px;
+        }
+
+        .linkContraseñaPerdida{
+            margin-top: 10px;
+            margin-right: 10%;
+            color: gray;
+        }
+
+        .recuperarContraseña{
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
         }
 
     </style>
